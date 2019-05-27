@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Just Drink",
+  "author": "Katy Zhao",
+  "version": "1.0.0",
+  "description": "A reminder to drink water!",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "React Extension"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"]
+}
